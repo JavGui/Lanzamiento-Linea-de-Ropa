@@ -33,9 +33,21 @@
 }
 header{
     display: flex;
-    justify-items: center;
+    justify-content: space-evenly;
+    /* justify-items: center; */
+    align-items: center;
+}
+.menu{
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.menu a{
+    padding: 15px;
 }
 .encabezado{
+    border: 1px solid blue;
     background-color: whitesmoke;
     height: 95px;  
     box-sizing: border-box;
@@ -43,24 +55,23 @@ header{
 }
 .logo{
     width: 100px;
-    margin-left: 340px;
-    margin-right: 40px;
+    /* margin-left: 340px;
+    margin-right: 40px; */
 }
 .linea{
     text-decoration: none;
     color: #1B5194;    
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 .final{
-    margin-left: 662px;
+    /* margin-left: 662px; */
 }
 .linea:hover{
     color: rgb(172, 169, 169);
 }
 .cuadro1{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     width: 40%;
