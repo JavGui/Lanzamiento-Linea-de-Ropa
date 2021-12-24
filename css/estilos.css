@@ -5,34 +5,248 @@
 .container{
     border: 1px solid black;
     background-color: rgb(255, 255, 255);
-    block-size: 800px;
-    justify-self: right;
+    block-size:  border-box;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #315470;
+    height: 715px;
+}
+.container3{
+    background-color: #F5F5F5;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-content: center;
+    background-color: #F5F5F5;
+    height: 600px;
+}
+.container5{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #315470;
+    height: 600px;
 }
 header{
     display: flex;
+    justify-items: center;
 }
 .encabezado{
-    background-color: #111827;
+    background-color: whitesmoke;
     height: 95px;  
     box-sizing: border-box;
     align-items: center;      
 }
-img{
+.logo{
     width: 100px;
     margin-left: 340px;
     margin-right: 40px;
 }
 .linea{
     text-decoration: none;
-    color: #eeeeee;    
+    color: #1B5194;    
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     margin-right: 20px;
 }
 .final{
-    text-decoration: none;
-    color: rgb(255, 255, 255);    
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 662px;
+}
+.linea:hover{
+    color: rgb(172, 169, 169);
+}
+.cuadro1{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 300px;
+    margin-top: 140px;
+    line-height: 1.2;
+    text-align: left; 
+}
+.cuadro2{
+    width: 60%;
+}
+.eslogan{
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    color: white;
+    font-weight: bold;
+    margin: 20px; 
+    margin-bottom: 70px; 
+}
+.mensaje{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.correo{
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    color: black;
+    font-size: 120%;
+    border-radius: 5%;
+    padding-left: 10px;
+}
+.enviar{
+    background-color: #35bdcf;
+    width: 100px;
+    height: 52px;
+    color: white; 
+    border-radius: 8%;
+    margin-left: 0px;
+}
+.enviar:hover{
+    background-color: #127f8d;
+}
+.enviar:active{
+    border: 2px solid 
+}
+.suscribete{
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.imagen{
+    width: 500px;
+    height: 600px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.novedades{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1B5194;
+    padding-top: 140px;
+    text-align: center;
+}
+.novedades h1{
+    font-size: 36px;
+}
+.novedades h3{
+    font-size: 16px;
+}
+.novedades p{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;   
+    width: 350px;
+    height: 450px;
+    border-radius: 2%;
+    box-shadow: 0.2px 0.2px 1px #999999;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    background-color: #FFFFFF;
+}
+.fotoTarjeta{
+    margin-top: 15px;
+    width: 200px;
+    height: 170px;  
+}
+.cajaFoto{
+    align-self: center;
+}
+.textoTarjeta{
+    font-family: sans-serif;
+    color: #1B5194;
+    font-weight: bold;
+    text-align: left;
+}
+.textoTarjeta1{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.textoTarjeta2{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.descripcion{
+    font-family: sans-serif;
+    color: #8c9fad;
+    text-align: left;
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pieTarjeta{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.cajaFotoPieTarjeta{
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.fotoPieTarjeta{   
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+.textoPieTarjeta{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #1B5194;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+.eventoPiePagina{
+    font-family: sans-serif;
+    font-size:14px;
+    color: #1B5194;
+    text-align: left;
+    margin-left: 15px;
+}
+.cajaImagen2{
+    width: 50%;
+}
+.imagen2{
+    width: 400px;
+    height: 500px;
+    margin-top: 25px;
+}
+.cuadro3{
+    border: 2px solid ;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    line-height: 1.2;
+    justify-content: center;
+    padding-left: 40px;
+}
+.eslogan2{
+    font-size: 150%;
+    
+    color: white;
+    font-weight: bold;
+}
+.mensaje2{
+    color: white;
+    font-weight: bold;
+}
+.mensaje3{
+    color: white;
+    font-weight: bold;
+}
+.contacto{
+    background-color: #35bdcf;
+    width: 250px;
+    height: 60px;
+    color: white; 
+    border-radius: 10%;
+    font-size: 16px;
 }
