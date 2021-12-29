@@ -3,107 +3,101 @@
     padding: 0;
 }
 .container{
-    border: 1px solid black;
     background-color: rgb(255, 255, 255);
     block-size:  border-box;
 }
-.container2{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #315470;
-    height: 715px;
-}
-.container3{
-    background-color: #F5F5F5;
-}
-.container4{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;    
-    justify-content: center;
-    align-content: center;
-    background-color: #F5F5F5;
-    height: 600px;
-}
-.container5{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #315470;
-    height: 600px;
-}
+/* ---------------------------------------------------------------------------------------------------------- */
 header{
     display: flex;
-    justify-content: space-evenly;
-    /* justify-items: center; */
-    align-items: center;
-}
-.menu{
-    border: 1px solid blue;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-}
-.menu a{
-    padding: 15px;
+    justify-content: space-around;
 }
 .encabezado{
-    border: 1px solid blue;
     background-color: whitesmoke;
     height: 95px;  
     box-sizing: border-box;
     align-items: center;      
 }
+.encabezado-izquierda{
+    display: flex;
+    align-items: center;
+}
 .logo{
     width: 100px;
-    /* margin-left: 340px;
-    margin-right: 40px; */
 }
+.menu{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.menu a{
+    padding: 20px;
+}
+
 .linea{
     text-decoration: none;
     color: #1B5194;    
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    /* margin-right: 20px; */
-}
-.final{
-    /* margin-left: 662px; */
 }
 .linea:hover{
     color: rgb(172, 169, 169);
 }
+/* ---------------------------------------------------------------------------------------------------------- */
+.container2{
+    display: flex;
+    background-color: #315470;
+    height: 715px;
+}
+/* .relleno{
+    width: 17%;   
+} */
 .cuadro1{
+    border: 1px solid white;
     display: flex;
     flex-direction: column;
-    width: 40%;
-    margin-left: 300px;
-    margin-top: 140px;
-    line-height: 1.2;
-    text-align: left; 
+    justify-content: space-evenly;
+    width: 50%;
 }
-.cuadro2{
-    width: 60%;
-}
-.eslogan{
-    font-size: 150%;
+.oferta{
+    border: 1px solid red;
+    line-height: 1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
     color: white;
+    /* width: 65%;     */
+}
+.eslogan{
+    border: 1px solid red;
+    font-size: 350%;
+    line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    color: white;    
     font-weight: bold;
-    margin: 20px; 
-    margin-bottom: 70px; 
+    /* width: 65%; */
 }
 .mensaje{
+    border: 1px solid red;
     color: white;
     font-weight: bold;
-    margin-bottom: 70px;
+    /* width: 65%; */
+}
+.registro{
+    border: 1px solid red;
+    /* width: 65%; */
 }
 .correo{
+    border: 1px solid red;
     background-color: white;
     width: 500px;
     height: 50px;
     color: black;
     font-size: 120%;
     border-radius: 5%;
-    padding-left: 10px;
+}
+.suscribete{
+    border: 1px solid red;
+    color: white;
+    font-weight: bold;
+    /* width: 65%; */
 }
 .enviar{
     background-color: #35bdcf;
@@ -111,7 +105,6 @@ header{
     height: 52px;
     color: white; 
     border-radius: 8%;
-    margin-left: 0px;
 }
 .enviar:hover{
     background-color: #127f8d;
@@ -119,21 +112,26 @@ header{
 .enviar:active{
     border: 2px solid 
 }
-.suscribete{
-    color: white;
-    font-weight: bold;
-    margin-top: 15px;
+.cuadro2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;   
+    justify-content: center;
+    align-content: center;    
 }
 .imagen{
-    width: 500px;
-    height: 600px;
-    margin-top: 60px;
-    margin-left: 200px;
+    /* display: block; */
+    width: 100%;
+    /* height: 680; */
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+.container3{
+    background-color: #F5F5F5;
 }
 .novedades{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #1B5194;
-    padding-top: 140px;
+    padding-top: 115px;
     text-align: center;
 }
 .novedades h1{
@@ -141,10 +139,20 @@ header{
 }
 .novedades h3{
     font-size: 16px;
+    padding: 10px;
 }
 .novedades p{
     font-size: 20px;
     padding-top: 15px;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+.container4{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-content: center;
+    background-color: #F5F5F5;
+    height: 600px;
 }
 .tarjeta{
     display: flex;
@@ -200,19 +208,21 @@ header{
     margin-left: 20px;
     margin-top: 3px;
 }
-.fotoPieTarjeta{   
+.fotoPieTarjeta{
     border-radius: 100%;
     width: 45px;
     height: 45px;
 }
-.textoPieTarjeta{
-    font-family: sans-serif;
-    font-size: 14px;
+.textoPieTarjeta a{
+    text-decoration: none;
     color: #1B5194;
+    font-family: sans-serif;
+    font-size: 14px;    
     font-weight: bold;
+}
+.textoPieTarjeta{    
     text-align: left;
     margin-left: 15px;
-    margin-bottom: 3px;
 }
 .eventoPiePagina{
     font-family: sans-serif;
@@ -221,43 +231,62 @@ header{
     text-align: left;
     margin-left: 15px;
 }
-.cajaImagen2{
-    width: 50%;
-}
-.imagen2{
-    width: 400px;
-    height: 500px;
-    margin-top: 25px;
+/* ---------------------------------------------------------------------------------------------------------- */
+.container5{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #315470;
+    height: 645px;
 }
 .cuadro3{
-    border: 2px solid ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 51%;   
+    justify-content: center;
+    align-content: center;    
+}
+.imagen2{
+    width: 100%;
+}
+.cuadro4{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 31%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
-    line-height: 1.2;
     justify-content: center;
     padding-left: 40px;
 }
-.eslogan2{
-    font-size: 150%;
-    
-    color: white;
-    font-weight: bold;
-}
 .mensaje2{
     color: white;
+}
+.eslogan2{
+    font-size: 200%;    
+    color: white;
     font-weight: bold;
+    line-height: 1;
+    padding-top: 20px;
 }
 .mensaje3{
     color: white;
-    font-weight: bold;
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    padding-right: 40px;
+}
+.contactar{
+    padding-top: 45px;
 }
 .contacto{
     background-color: #35bdcf;
-    width: 250px;
-    height: 60px;
+    text-decoration: none;
+    width: 220px;
+    height: 55px;
     color: white; 
-    border-radius: 10%;
+    border-radius: 8%;
     font-size: 16px;
+    padding: 15px 40px;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+footer{
+    height: 425px;
 }
