@@ -32,7 +32,6 @@ header{
 .menu a{
     padding: 20px;
 }
-
 .linea{
     text-decoration: none;
     color: #1B5194;    
@@ -48,44 +47,35 @@ header{
     background-color: #315470;
     height: 715px;
 }
-/* .relleno{
+.relleno{
     width: 17%;   
-} */
+}
 .cuadro1{
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 50%;
+    width: 33%;
 }
 .oferta{
-    border: 1px solid red;
     line-height: 1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
     color: white;
-    /* width: 65%;     */
+    margin-top: 50px;
+    padding-left: 20px;
 }
 .eslogan{
-    border: 1px solid red;
     font-size: 350%;
     line-height: 1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
     color: white;    
     font-weight: bold;
-    /* width: 65%; */
 }
 .mensaje{
-    border: 1px solid red;
     color: white;
     font-weight: bold;
-    /* width: 65%; */
-}
-.registro{
-    border: 1px solid red;
-    /* width: 65%; */
+    padding-left: 20px;
 }
 .correo{
-    border: 1px solid red;
     background-color: white;
     width: 500px;
     height: 50px;
@@ -94,10 +84,10 @@ header{
     border-radius: 5%;
 }
 .suscribete{
-    border: 1px solid red;
     color: white;
     font-weight: bold;
-    /* width: 65%; */
+    margin-top: -60px;
+    padding-left: 20px;
 }
 .enviar{
     background-color: #35bdcf;
@@ -120,9 +110,7 @@ header{
     align-content: center;    
 }
 .imagen{
-    /* display: block; */
     width: 100%;
-    /* height: 680; */
 }
 /* ---------------------------------------------------------------------------------------------------------- */
 .container3{
@@ -234,24 +222,22 @@ header{
 /* ---------------------------------------------------------------------------------------------------------- */
 .container5{
     display: flex;
-    justify-content: space-evenly;
     background-color: #315470;
-    height: 645px;
+    height: 600px;
+    margin-top: 30px;
 }
 .cuadro3{
     display: flex;
-    flex-wrap: wrap;
     width: 51%;   
-    justify-content: center;
-    align-content: center;    
 }
 .imagen2{
     width: 100%;
 }
 .cuadro4{
+    border: 1px solid blue;
     display: flex;
     flex-direction: column;
-    width: 31%;
+    width: 35%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
     justify-content: center;
     padding-left: 40px;
@@ -272,21 +258,88 @@ header{
     text-align: justify;
     line-height: 1.6;
     padding-right: 40px;
-}
-.contactar{
-    padding-top: 45px;
+    margin-bottom: 50px;
 }
 .contacto{
-    background-color: #35bdcf;
-    text-decoration: none;
-    width: 220px;
-    height: 55px;
-    color: white; 
-    border-radius: 8%;
+    background-color: white;
+    text-decoration: none;    
+    color: #1B5194;
+    font-weight: bold;
+    border-radius: 5px;
     font-size: 16px;
-    padding: 15px 40px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+.imgDerecha{
+    position: relative;
+    width: 20px;
+    height: 17px;
+    top: 3px;
+    left: 10px;
 }
 /* ---------------------------------------------------------------------------------------------------------- */
 footer{
-    height: 425px;
+    height: 250px;
+    display: flex;
+    margin-top: 30px;
+}
+.icono{
+    width: 20px;
+}
+.redes{
+    height: auto;
+    padding: 20px;
+    margin-left: 310px;
+}
+.redes a{
+    padding: 12px;
+}
+.opciones{
+    display: flex;
+    height: auto;
+    margin-left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.coleccion{
+    padding: 20px;
+    margin-right: 60px;
+}
+li{
+    padding-top: 10px;
+    list-style: none;
+}
+.opcion{
+    text-decoration: none;    
+    color: black;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;   
+}
+.soporte{
+    padding: 20px;
+    margin-right: 60px;
+}
+.nosotros{
+    padding: 20px;
+    margin-right: 60px;
+}
+.legal{
+    padding: 20px;
+    margin-right: 60px;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+.division{
+    width: 50%;
+    margin: auto;
+    border-color: rgba(128, 128, 128, 0.075);
+}
+.derechos{
+    text-align: center;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+   color: rgba(128, 128, 128, 0.691);  
 }
